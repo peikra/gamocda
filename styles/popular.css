@@ -1,0 +1,454 @@
+header{
+    background: #1F2E35;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+height: 550px;
+
+}
+.header{
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 2px solid black;
+   
+    
+}
+
+.header nav{
+    display: flex;
+    gap: 109px;
+    align-items: center;
+    
+}
+
+.header ul{
+    display: flex;
+    gap: 77px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.header ul li a{
+    color: #FFF;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+.signup {
+    width: 111px;
+    height: 39px;
+    border-radius: 8px;
+background: #0086D6;
+border: #FFF;
+color: #FFF;
+font-size: 18px;
+line-height: 19.5px; 
+letter-spacing: 0.2px;
+text-transform: capitalize;
+cursor: pointer;
+
+}
+
+.login{
+    width: 89px;
+    height: 39px;
+    border-radius: 8px;
+background: #0086D6;
+border: #FFF;
+color: #FFF;
+font-size: 18px;
+line-height: 19.5px; 
+letter-spacing: 0.2px;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.popular_tools{
+    width: 100%;
+    height: 550px;
+    background: #1F2E35;
+    
+}
+
+
+.images{
+    width: 100%;
+    height: 550px;
+    max-width: 1326px;
+    margin: 0 auto;
+    position: relative;
+    
+    
+}
+.f{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.s{
+    position: absolute;
+    left: 395px;
+    top: 30px ;
+
+}
+
+.t{
+    position:absolute;
+    right: 365px;
+    top: 200px;
+}
+
+
+
+.first{
+    width: 379.641px;
+height: 349.899px;
+
+
+
+}
+
+.second{
+    width: 379.641px;
+height: 349.899px;
+}
+
+.third{
+    width: 379.641px;
+height: 349.899px;
+}
+
+.popular{
+    position: absolute;
+ width: 90%;
+ max-width: 387px;
+ margin: 0 auto;
+ top: 100px;
+ left: 426px;
+}
+
+.popular h1{
+    color: #FFF;
+font-size: 40px;
+line-height: 32px; 
+letter-spacing: 0.2px;
+text-align: center;
+}
+
+.popular h3{
+    color: #FFF;
+font-size: 20px;
+line-height: 150%; 
+margin-top: 24px;
+margin-left: 10px;
+text-align: center;
+}
+
+.popular button{
+    height: 64.916px;
+    width: 177px;
+    border-radius: 8px;
+background: #0086D6;
+border: #FFF;
+color: #FFF;
+font-size: 20px;
+line-height: 61px; 
+letter-spacing: 0.2px;
+text-transform: capitalize;
+margin-top: 35px;
+margin-left: 80px;
+cursor: pointer;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.grid_container{
+    width: 100%;
+    max-width: 1142px;
+    margin: 0 auto; 
+    display: grid;
+  row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 70px;
+  column-gap: 31px;
+  
+}
+
+.grid_item{
+    width: 360px;
+    height: 432px;
+    border-radius: 8px;
+background: #FFF;
+    padding: 20px 21px 225px 20px;
+ 
+  }
+
+.grid_item:hover{
+    box-shadow: 0px 32px 56px 0px rgba(0, 0, 0, 0.08);
+}
+
+.for_image{
+    width: 319px;
+    height: 187px;
+    border-radius: 5px;
+background: #F5F5F5;
+    padding: 43px 120px 44px 120px;;
+    
+}
+
+.git{
+    padding: 30px 90px 40px 90px;
+}
+
+.for_texts{
+    width: 319px;
+    margin-top: 28px;
+}
+
+.free{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.free h1{
+    color: #1F2E35;
+font-size: 28px;
+line-height: 150%; 
+}
+.free h3{
+    color: #20C08B;
+font-size: 18px;
+line-height: 32px; 
+letter-spacing: 0.2px;
+}
+
+.for_texts p{
+    margin-bottom: 16px;
+    width: 319px;
+    color: #475E69;
+font-size: 16px;
+line-height: 160%; 
+}
+
+.design{
+    border-radius: 4px;
+background: #E1EBFB;
+border: white;
+width: 70px;
+height: 33px;
+color: #0086D6;
+font-size: 14px;
+line-height: 32px; 
+letter-spacing: 0.2px;
+}
+.develop{
+    width: 116px;
+    height: 33px;
+    color: #0086D6;
+font-size: 14px;
+line-height: 32px; 
+letter-spacing: 0.2px;
+border-radius: 4px;
+background: #E1EBFB;
+border: white;
+}
+
+.premium h3{
+    color: #FFC942;
+}
+
+.day h3{
+    color: #009BFF;
+}
+
+.buttons{
+    width: 100%;
+    max-width: 205px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.first_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+background: #1F2E35;
+color: #FFF;
+font-size: 20px;
+line-height: 32px; 
+letter-spacing: 0.2px;
+
+}
+
+.second_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: #FFF;
+color: #1F2E35;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0.2px;
+}
+.next{
+    width: 73px;
+    height: 40px;
+    border-radius: 2px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: #FFF;
+color: #1F2E35;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0.2px;
+}
+
+footer{
+    background: #1F2E35;
+    margin-top: 63px;
+}
+
+.footer1{
+    width: 100%;
+    height: 243px;
+    background: #1F2E35;
+    border-bottom: 1px solid #666;
+    
+    
+    
+    
+}
+
+.subscribe{
+    width: 800px;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+    
+    
+    
+}
+
+.subscribe h1{
+    color: #FFF;
+font-size: 36px;
+line-height: 32px; 
+letter-spacing: 0.2px;
+}
+
+.subscribe h3{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #FFF;
+font-size: 18px;
+line-height: 27px; 
+letter-spacing: 0.2px;
+}
+
+input[type=email]{
+    border-radius: 4px;
+background: var(--Light-White, #FFF);
+width: 282px;
+height: 42px;
+padding: 11px 16px 11px 16px;
+border: white;
+}
+
+input[type=submit]{
+    border-radius: 4px;
+background: #0086D6;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+width: 145px;
+height: 42px;
+color: var(--Light-White, #FFF);
+text-align: center;
+font-size: 16px;
+line-height: 18px; 
+letter-spacing: 0.3px;
+border: white;
+margin-left: 13px;
+}
+
+.footer2{
+    width: 100%;
+    height: 325px;
+    max-width: 1003px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.gear{
+    margin-top: 54px;
+    width: 155px;
+    
+    
+    
+}
+
+.logo1{
+    display: flex;
+    gap: 16px;
+}
+
+.gear img{
+    width: 40px;
+    height: 43px;
+}
+
+
+
+.gear h1{
+margin-top: 7px;
+color: #F4F4F4;
+font-size: 28px;
+line-height: 35px;
+
+}
+
+.social{
+    margin-top: 32px;
+}
+
+.all{
+    width: 118px;
+    height: 205px;
+    margin-top: 50px;
+}
+
+.all ul li {
+    color: #FFF;
+font-size: 20px;
+line-height: 30px; 
+}
+
+.all ul li a{
+    color: #FFF;
+font-size: 16px;
+line-height: 35px; 
+
+}
+
+.footer3{
+    width: 100%;
+    height: 60px;
+    background-color: #1D292F;
+}
+
+.footer3 h3{
+    text-align: center;
+    color: #FFF;
+font-size: 16px;
+line-height: 30px; 
+}
