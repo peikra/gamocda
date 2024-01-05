@@ -3,6 +3,7 @@ header{
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 height: 666px;
 
+
 }
 
 .header{
@@ -918,4 +919,416 @@ line-height: 35px;
 font-size: 16px;
 line-height: 30px; 
 
+}
+
+.invis img{
+    
+    padding-left: 110px;
+}
+
+
+
+@media (max-width:1075px){
+    header{
+        width: 192vh;
+    }
+
+    .tools{
+        margin-left: 90px;
+        gap: 100px;
+
+    }
+
+    .for_tools{
+        width: 170vh;
+        margin-left: 120px;
+        gap: 12px;
+        
+    }
+
+    .for_figma{
+        width: 250px;
+    }
+
+    .text{
+        width: 200px;
+        margin-bottom: 35px;
+
+    }
+
+    .for_logo img{
+        padding-left: 81px;
+        
+    }
+
+    .for_logo{
+        width: 250px;
+    }
+
+    .for_adobe{
+        width: 300px;
+    }
+
+    .back{
+        width: 250px;
+    }
+
+    .back img{
+        margin-left: 81px;
+    }
+
+    .for_invision{
+        width: 280px;
+    }
+
+    .invis {
+        width: 250px;
+    }
+
+    
+    .comer{
+        width: 192vh;
+       
+    }
+
+    .container1{
+        margin-left: 90px;
+    }
+
+    .box{
+        width: 400px;
+        height: 250px;
+    }
+
+    .for_free h3{
+        margin-right: 45px;
+    }
+
+    .day h3{
+        margin-left: 25px;
+    }
+
+    .prototype{
+        width: 230px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .brands{
+        margin-top: 150px;
+    }
+
+    .websites p {
+        width: 300px;
+
+    }
+
+    .testimional{
+        width: 194vh;
+    }
+
+    .boxes{
+        margin-right: 100px;
+    }
+
+    .footer1{
+        width: 192vh;
+    }
+
+    footer{
+        width: 192vh;
+    }
+
+    .footer3{
+        width: 192vh;
+    }
+
+    .designer{
+        width: 320px;
+    }
+    .developer{
+        width: 320px;
+    }
+    .ux_ui{
+        width: 320px;
+    }
+
+    .about{
+        width: 290px;
+    }
+
+    .popularity{
+        width: 192vh;
+    }
+
+    .trust{
+        width: 192vh;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width:262px){
+    .header nav{
+        display: none;
+    }
+
+    .container{
+        width: 120vh;
+        flex-direction: column-reverse;
+        margin-left: 300px;
+    }
+
+    header{
+        height: 1303px;
+        width: 185vh;
+    }
+
+    .tools{
+        flex-direction: column;
+        margin-left: 400px;
+        width: 100vh;
+    }
+
+    .tool h1{
+        font-size: 50px;
+    }
+
+    .tool h2{
+        font-size: 30px;
+    }
+
+    .tool p{
+        font-size: 25px;
+    }
+
+    .for_tools{
+        flex-direction: column;
+        margin-left: 370px;
+    }
+
+    .see{
+        margin-right: 730px;
+    }
+
+    .container1{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: 300px;
+        
+        
+    }
+    .see1{
+        margin-right: 670px;
+    }
+
+    .comer{
+        height: 1329px;
+    }
+
+    .websites{
+        flex-direction: column;
+        margin-left: 360px;
+    }
+
+    .testimional{
+        height: 1151px;
+    }
+
+    .boxes{
+        flex-direction: column;
+        margin-left: 360px;
+    }
+
+    .footer2{
+        flex-direction: column;
+        height: 1000px;
+        margin-left: 420px;
+    }
+}
+
+@media(max-width:219px){
+    header{
+        width: 160vh;
+    }
+
+
+    .container{
+        margin-left: 120px;
+    }
+
+    .design h1{
+        width: 359px;
+        margin-left: 40px;
+        
+    }
+
+    .info{
+        width: 350px;
+        margin-left: 16px;
+    }
+
+    .design{
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+
+    .design button{
+        margin-left: 90px;
+    }
+
+    .portraits{
+        margin-left: 30px;
+    }
+
+    .tools{
+        margin-left: 200px;
+    }
+
+    .for_tools{
+        margin-left: 140px;
+    }
+
+    .popular_tools{
+        text-align: unset;
+        margin-left: 135px;
+    }
+    .for_designer{
+        text-align: unset;
+        margin-left: 135px;
+    }
+
+    .container1{
+        margin-left: 120px;
+    }
+
+    .comer_tools{
+        text-align: unset;
+        margin-left: 165px;
+    }
+
+    .gains{
+        text-align: unset;
+        margin-left: 165px;
+    }
+
+    .websites{
+        margin-left: 150px;
+    }
+
+    .brands{
+        text-align: unset;
+        margin-left: 185px;
+
+    }
+
+    .brand{
+        text-align: unset;
+        margin-left: 225px;
+    }
+
+    .boxes{
+        margin-left: 150px;
+    }
+
+    .test h1{
+        margin-right: 100px;
+        
+    }
+    .test h3{
+        margin-right: 100px;
+    }
+
+    .subscribe{
+        text-align: unset;
+        margin-left: 140px;
+
+    }
+
+    .footer2{
+        margin-left: 140px;
+    }
+
+    .footer3 h3{
+        text-align: unset;
+        margin-left: 100px;
+    }
+
+    .second_nav{
+        display: block;
+    }
+
+    
+
+}
+
+@media (max-width:219px){
+    header{
+        width: 140vh;
+    }
+    .tools{
+        width: 140vh;
+    }
+    .popularity{
+        width: 140vh;
+    }
+    .comer{
+        width: 140vh;
+    }
+
+    .trust{
+        width: 140vh;
+    }
+
+    .testimional{
+        width: 140vh;
+    }
+
+    footer{
+        width: 140vh;
+    }
+
+    .footer1{
+        width: 140vh;
+    }
+    .footer3{
+        width: 140vh;
+
+    }
+}
+
+@media (max-width:197px){
+    header{
+        width: 120vh;
+    }
+    .tools{
+        width: 120vh;
+    }
+    .popularity{
+        width: 120vh;
+    }
+    .comer{
+        width: 120vh;
+    }
+    .trust{
+        width: 120vh;
+    }
+    footer{
+        width: 120vh;
+    }
+
+    .testimional{
+        width: 120vh;
+    }
+
+    .footer1{
+        width: 120vh;
+    }
+    .footer3{
+        width: 120vh;
+    }
 }
