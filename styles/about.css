@@ -1,0 +1,109 @@
+
+header{
+    
+background: #1F2E35;
+height: 500px;
+width: 100%;
+display: flex;
+flex-direction: column;
+background-size: cover;
+
+
+}
+
+.header{
+    
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+   
+    
+}
+
+.header nav{
+    display: flex;
+    gap: 109px;
+    align-items: center;
+    
+}
+
+.header ul{
+    display: flex;
+    gap: 77px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.header ul li a{
+    color: #FFF;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+.signup {
+    width: 111px;
+    height: 39px;
+    border-radius: 8px;
+background: #0086D6;
+border: #FFF;
+color: #FFF;
+font-size: 18px;
+line-height: 19.5px; 
+letter-spacing: 0.2px;
+text-transform: capitalize;
+cursor: pointer;
+
+}
+
+.login{
+    width: 89px;
+    height: 39px;
+    border-radius: 8px;
+background: #0086D6;
+border: #FFF;
+color: #FFF;
+font-size: 18px;
+line-height: 19.5px; 
+letter-spacing: 0.2px;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.texts{
+    width: 90%;
+    max-width: 694px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.texts h1{
+    color: #FFF;
+text-align: center;
+font-size: 40px;
+line-height: 56px; 
+}
+
+.texts span{
+    color: #0086D6;
+    text-align: center;
+    font-size: 40px;
+    line-height: 56px; 
+
+}
+
+.texts p{
+    width: 571px;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+line-height: 153.5%; 
+margin-top: 24px;
+margin-left: 55px;
+}

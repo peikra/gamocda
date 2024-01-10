@@ -301,6 +301,21 @@ font-size: 20px;
 line-height: 32px;
 letter-spacing: 0.2px;
 }
+
+.third_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: #FFF;
+color: #1F2E35;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0.2px;
+
+}
+
+
 .next{
     width: 73px;
     height: 40px;
@@ -452,3 +467,7 @@ line-height: 35px;
 font-size: 16px;
 line-height: 30px; 
 }
+
+
+
+
