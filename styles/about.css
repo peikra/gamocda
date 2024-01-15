@@ -107,3 +107,267 @@ line-height: 153.5%;
 margin-top: 24px;
 margin-left: 55px;
 }
+
+.growing{
+    width: 100%;
+    max-width: 691px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.growing h1{
+    width: 592px;
+    color: #333E44;
+font-size: 36px;
+line-height: 32px; 
+letter-spacing: 0.2px;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.growing p{
+    width: 691px;
+    color: #475E69;
+text-align: center;
+font-size: 18px;
+line-height: 150%; 
+}
+
+.for_photos{
+    width: 100%;
+    height: 100%;
+    margin-top: 77px;
+    position: relative;
+    max-width: 822px;
+    margin: 0 auto;
+}
+
+.first_photo{
+    width: 24%;
+    position: absolute;
+    left: 0px;
+    top: 230px;
+    z-index: 101;
+
+
+}
+
+.second_photo{
+    width: 35%;
+    position: absolute;
+    left: 120px;
+    top: 70px;
+    z-index: 100;
+
+}
+
+.third_photo{
+    width: 28%;
+    position: absolute;
+    right: 190px;
+    top: 230px;
+    
+
+}
+
+.humans{
+    width: 100%;
+    max-width: 595px;
+    margin: 0 auto;
+    margin-top: 630px;
+}
+
+.humans h1{
+    color: #333E44;
+font-size: 36px;
+line-height: 32px;
+letter-spacing: 0.2px;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.humans h3{
+    color: #475E69;
+text-align: center;
+font-size: 18px;
+line-height: 150%; 
+}
+
+.engineers{
+    display: flex;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 80px;
+}
+
+.people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.people h1{
+    color: #1F2E35;
+font-size: 24px;
+line-height: 24px; 
+letter-spacing: 0.2px;
+margin-top: 24px;
+margin-bottom: 8px;
+}
+
+.ceo{
+color: #0086D6;
+text-align: center;
+font-size: 16px;
+line-height: 27px; 
+letter-spacing: 0.2px;
+margin-bottom: 12px;
+}
+
+.people p{
+    width: 316px;
+    color: #30444E;
+text-align: center;
+font-size: 16px;
+line-height: 27px; 
+letter-spacing: 0.2px;
+}
+
+.github{
+    color: #1F2E35;
+font-size: 14px;
+line-height: 24px; 
+letter-spacing: 0.2px;
+margin-top: 35px;
+}
+
+.linkdin{
+    margin-top: 62px;
+}
+footer {
+    background: #1f2e35;
+    margin-top: 88px;
+  }
+  
+  .footer1 {
+    width: 100%;
+    height: 243px;
+    background: #1f2e35;
+    border-bottom: 1px solid #666;
+  }
+  
+  .subscribe {
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .subscribe h1 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+  }
+  
+  .subscribe h3 {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+  }
+  
+  input[type="email"] {
+    border-radius: 4px;
+    background: var(--Light-White, #fff);
+    width: 282px;
+    height: 42px;
+    padding: 11px 16px 11px 16px;
+    border: white;
+  }
+  
+  input[type="submit"] {
+    border-radius: 4px;
+    background: #0086d6;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 145px;
+    height: 42px;
+    color: var(--Light-White, #fff);
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    border: white;
+    margin-left: 13px;
+  }
+  
+  .footer2 {
+    width: 100%;
+    height: 325px;
+    max-width: 1003px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gear {
+    margin-top: 54px;
+    width: 155px;
+  }
+  
+  .logo1 {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .gear img {
+    width: 40px;
+    height: 43px;
+  }
+  
+  .gear h1 {
+    margin-top: 7px;
+    color: #f4f4f4;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  
+  .social {
+    margin-top: 32px;
+  }
+  
+  .all {
+    width: 118px;
+    height: 205px;
+    margin-top: 50px;
+  }
+  
+  .all ul li {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .all ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  
+  .footer3 {
+    width: 100%;
+    height: 60px;
+    background-color: #1d292f;
+  }
+  
+  .footer3 h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+  }

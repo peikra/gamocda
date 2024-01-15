@@ -12,6 +12,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    position: relative;
   }
   
   .nav {
@@ -930,6 +931,87 @@ header {
   .invis img {
     padding-left: 110px;
   }  
+
+  
+.second_nav{
+  z-index: 100;
+  display: none;
+  
+}
+
+.sidebar{
+  background-color: #1F2E35;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  transition: translate 200ms ease-in-out;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 100%;
+  display: none;
+  
+
+}
+
+.sidebar nav ul{
+  display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.second{
+  flex-direction: column;
+    margin: 0 auto;
+    width: 119px;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+
+
+
+.hamburger-menu{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 9;
+  cursor: pointer;
+  
+  
+  
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input{
+  content: "";
+  width: 60px;
+  height: 8px;
+  background-color: white;
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  pointer-events: none;
+  border-radius: 999px;
+  transform-origin: left center;
+  
+}
+
+
+
+.hamburger-menu input:checked{
+  opacity: 2;
+  width: 30px;
+  
+}
+
+.hamburger-menu:has(input:checked) + .sidebar{
+  display: block;
+}
   
   @media(max-width:1200px){
     .boxes{
@@ -1022,6 +1104,8 @@ header {
     
     
   }
+
+  
   
   @media (max-width:867px){
     .design_button{
@@ -1072,11 +1156,15 @@ header {
   }
   
   @media(max-width:667px){
-    .header nav{
+    .header .nav{
       display: none;
     }
-    .buttons{
+    .first_buttons{
       display: none;
+    }
+
+    .second_nav{
+      display: block;
     }
   
     .container{

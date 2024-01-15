@@ -13,11 +13,12 @@ height: 550px;
     justify-content: space-between;
     height: 80px;
     border-bottom: 2px solid black;
+    position: relative;
    
     
 }
 
-.header nav{
+.nav{
     display: flex;
     gap: 109px;
     align-items: center;
@@ -100,7 +101,7 @@ cursor: pointer;
 
 .t{
     position:absolute;
-    right: 365px;
+    left: 584px;
     top: 200px;
 }
 
@@ -468,6 +469,287 @@ font-size: 16px;
 line-height: 30px; 
 }
 
+.second_nav{
+    z-index: 100;
+    display: none;
+    
+  }
+  
+  .sidebar{
+    background-color: #1F2E35;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    transition: translate 200ms ease-in-out;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    display: none;
+    
+  
+  }
+  
+  .sidebar nav ul{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+  }
+  
+  .second1{
+    flex-direction: column;
+      margin: 0 auto;
+      width: 119px;
+      margin-top: 30px;
+      align-items: center;
+      
+  }
+  
+  
+  
+  .hamburger-menu{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 9;
+    cursor: pointer;
+    
+    
+    
+  }
+  
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu input{
+    content: "";
+    width: 60px;
+    height: 8px;
+    background-color: white;
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+    border-radius: 999px;
+    transform-origin: left center;
+    
+  }
+  
+  
+  
+  .hamburger-menu input:checked{
+    opacity: 2;
+    width: 30px;
+    
+  }
+  
+  .hamburger-menu:has(input:checked) + .sidebar{
+    display: block;
+  }
+    
+
+@media (max-width:1270px){
+    .grid_container{
+       grid-template-columns: auto;
+    }
+
+    .grid_item{
+        margin: 0 auto;
+    }
+}
 
 
+@media (max-width:1075px) {
+    .header ul{
+        gap: 30px;
+    }
 
+    .popular{
+        left: 317px
+    }
+    
+    .f{
+        left: 108px;
+    }
+
+    .s{
+        left: 303px;
+    }
+
+    .t{
+        left: 492px;
+    }
+}
+
+@media (max-width:890px){
+    .header ul li a{
+        font-size: 10px;
+    }
+
+    .popular{
+        left: 225px ;
+
+    }
+
+    .s{
+        left: 208px;
+    }
+    .t{
+        left: 398px;
+    }
+
+    .f{
+        left: 14px ;
+
+    }
+
+
+}
+
+@media (max-width:830px){
+    .images img{
+        width: 323.641px;
+    height: 289.899px;
+    }
+
+    .t{
+        left: 331px;
+    }
+    .f{
+        left: 36px;
+    top: 166px
+    }
+
+    .popular{
+        left: 150px ;
+       
+    }
+
+    .subscribe{
+        width: 100%;
+    }
+
+    
+
+      
+}
+
+@media (max-width:700px) {
+    .nav ul{
+        display: none;
+    }
+
+    header .first1{
+        display: none;
+    }
+
+    .second_nav{
+        display: block;
+    }
+    .images img{
+        width: 257.641px;
+    height: 250.899px;
+    }
+
+    .popular{
+        left: 110px;
+    }
+
+    .t{
+        left: 247px
+    }
+    .s{
+        left: 123px;
+    top: 72px;
+    }
+    .f{
+        left: 4px;
+    top: 204px;
+    }
+
+
+}
+
+@media (max-width:560px){
+    .footer2{
+        flex-direction: column;
+        height: 100%;
+        margin: 0px auto;
+        width: 172px;
+      }
+      input[type=email]{
+        width: 70%;
+      }
+      input[type=submit]{
+        width: 40%;
+        margin-top: 12px;
+      }
+}
+
+@media (max-width:510px){
+    .popular {
+    left: 62px;
+    }
+
+    .images img {
+    width: 201.641px;
+    height: 205.899px;
+    }
+}
+
+@media (max-width:490px){
+    .popular{
+        left: 33px;
+    }
+    .f {
+    left: 0px;
+    top: 206px;
+    }
+    .s {
+    left: 91px ;
+    top: 102px;
+    }
+    .t {
+    left: 181px
+    }
+}
+
+@media (max-width:410px){
+    .popular{
+        left: 7px;
+    }
+    .images img {
+    width: 149.641px;
+    height: 162.899px;
+    }
+}
+
+@media (max-width:380px){
+    .images img {
+    width: 117.641px;
+    height: 134.899px;
+    }
+
+    .f {
+    left: 3px;
+    top: 180px;
+    }
+    .s {
+    left: 86px;
+    top: 110px;
+    }
+
+    .t {
+    left: 151px;
+    }
+
+    
+}
+
+@media(max-width:290px){
+    .popular button{
+        margin-left: 41px;
+    }
+}
