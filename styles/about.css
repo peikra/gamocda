@@ -20,11 +20,12 @@ background-size: cover;
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    position: relative;
    
     
 }
 
-.header nav{
+.nav{
     display: flex;
     gap: 109px;
     align-items: center;
@@ -45,6 +46,7 @@ background-size: cover;
     color: #FFF;
 font-size: 18px;
 text-transform: uppercase;
+font-family: 'Poppins', sans-serif;
 }
 
 .signup {
@@ -59,6 +61,7 @@ line-height: 19.5px;
 letter-spacing: 0.2px;
 text-transform: capitalize;
 cursor: pointer;
+font-family: 'Poppins', sans-serif;
 
 }
 
@@ -74,6 +77,7 @@ line-height: 19.5px;
 letter-spacing: 0.2px;
 text-transform: capitalize;
 cursor: pointer;
+font-family: 'Poppins', sans-serif;
 }
 
 .texts{
@@ -88,6 +92,8 @@ cursor: pointer;
 text-align: center;
 font-size: 40px;
 line-height: 56px; 
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
 }
 
 .texts span{
@@ -95,6 +101,8 @@ line-height: 56px;
     text-align: center;
     font-size: 40px;
     line-height: 56px; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 
 }
 
@@ -106,6 +114,8 @@ font-size: 18px;
 line-height: 153.5%; 
 margin-top: 24px;
 margin-left: 55px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
 }
 
 .growing{
@@ -123,6 +133,8 @@ line-height: 32px;
 letter-spacing: 0.2px;
 text-align: center;
 margin-bottom: 24px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
 }
 
 .growing p{
@@ -131,6 +143,8 @@ margin-bottom: 24px;
 text-align: center;
 font-size: 18px;
 line-height: 150%; 
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
 }
 
 .for_photos{
@@ -145,29 +159,41 @@ line-height: 150%;
 .first_photo{
     width: 24%;
     position: absolute;
-    left: 0px;
+    left: 3%;
     top: 230px;
     z-index: 101;
 
 
 }
 
+.first_photo img{
+  width: 210%;
+}
+
 .second_photo{
     width: 35%;
     position: absolute;
-    left: 120px;
+    left: 19%;
     top: 70px;
     z-index: 100;
 
 }
 
+.second_photo img{
+  width: 185%;
+}
+
 .third_photo{
     width: 28%;
     position: absolute;
-    right: 190px;
+    left: 44%;
     top: 230px;
     
 
+}
+
+.third_photo img{
+  width: 176%;
 }
 
 .humans{
@@ -184,6 +210,8 @@ line-height: 32px;
 letter-spacing: 0.2px;
 text-align: center;
 margin-bottom: 16px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600
 }
 
 .humans h3{
@@ -191,6 +219,8 @@ margin-bottom: 16px;
 text-align: center;
 font-size: 18px;
 line-height: 150%; 
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
 }
 
 .engineers{
@@ -216,6 +246,8 @@ line-height: 24px;
 letter-spacing: 0.2px;
 margin-top: 24px;
 margin-bottom: 8px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
 }
 
 .ceo{
@@ -225,15 +257,19 @@ font-size: 16px;
 line-height: 27px; 
 letter-spacing: 0.2px;
 margin-bottom: 12px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
 }
 
 .people p{
-    width: 316px;
+    width: 100%;
     color: #30444E;
 text-align: center;
 font-size: 16px;
 line-height: 27px; 
 letter-spacing: 0.2px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
 }
 
 .github{
@@ -241,6 +277,7 @@ letter-spacing: 0.2px;
 font-size: 14px;
 line-height: 24px; 
 letter-spacing: 0.2px;
+font-family: 'Poppins', sans-serif;
 margin-top: 35px;
 }
 
@@ -271,6 +308,8 @@ footer {
     font-size: 36px;
     line-height: 32px;
     letter-spacing: 0.2px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
   }
   
   .subscribe h3 {
@@ -280,6 +319,8 @@ footer {
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0.2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
   }
   
   input[type="email"] {
@@ -289,6 +330,7 @@ footer {
     height: 42px;
     padding: 11px 16px 11px 16px;
     border: white;
+    font-family: 'Poppins', sans-serif;
   }
   
   input[type="submit"] {
@@ -303,6 +345,7 @@ footer {
     line-height: 18px;
     letter-spacing: 0.3px;
     border: white;
+    font-family: 'Poppins', sans-serif;
     margin-left: 13px;
   }
   
@@ -351,12 +394,15 @@ footer {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
   }
   
   .all ul li a {
     color: #fff;
     font-size: 16px;
     line-height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
   }
   
   .footer3 {
@@ -371,3 +417,167 @@ footer {
     font-size: 16px;
     line-height: 30px;
   }
+
+
+  .second_nav{
+    z-index: 100;
+    display: none;
+    
+  }
+  
+  .sidebar{
+    background-color: #1F2E35;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    transition: translate 200ms ease-in-out;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    display: none;
+    
+  
+  }
+  
+  .sidebar nav ul{
+    display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: center;
+  }
+  
+  .second{
+    flex-direction: column;
+      margin: 0 auto;
+      width: 119px;
+      margin-top: 30px;
+      align-items: center;
+      
+  }
+  
+  
+  
+  .hamburger-menu{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 9;
+    cursor: pointer;
+    
+    
+    
+  }
+  
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu input{
+    content: "";
+    width: 60px;
+    height: 8px;
+    background-color: white;
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+    border-radius: 999px;
+    transform-origin: left center;
+    
+  }
+  
+  
+  
+  .hamburger-menu input:checked{
+    opacity: 2;
+    width: 30px;
+    
+  }
+  
+  .hamburger-menu:has(input:checked) + .sidebar{
+    display: block;
+  }
+
+
+@media (max-width:1075px){
+    .header ul{
+        gap: 30px;
+    
+      }
+}
+@media (max-width:850px){
+  .header ul li a{
+      font-size: 10px;
+    }
+
+  .subscribe{
+      width: 100%;
+  }
+}
+
+@media (max-width:700px){
+  .nav ul{
+      display: none;
+  }
+
+  .nav .buttons{
+      display: none;
+  }
+  .second_nav{
+    display: block;
+}
+
+  .growing p{
+    width: 100%;
+  }
+
+  .texts p{
+    margin-left: 0px;
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width:625px){
+  .engineers{
+    flex-direction: column;
+  }
+
+  .growing h1{
+    width: 100%;
+  }
+}
+
+@media (max-width:567px){
+  .footer2{
+      flex-direction: column;
+      height: 100%;
+      margin: 0px auto;
+      width: 172px;
+    }
+    input[type=email]{
+      width: 70%;
+    }
+    input[type=submit]{
+      width: 40%;
+      margin-top: 12px;
+    }
+
+    .first_photo{
+      top: 16vw;
+    }
+
+    .second_photo{
+      top: 4vw;
+    }
+
+    .third_photo{
+      top: 19vw;
+    }
+
+    .growing{
+      margin-bottom: 100px;
+    }
+}

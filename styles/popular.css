@@ -1,3 +1,6 @@
+@import url(../styles/fonts.css);
+
+
 header{
     background: #1F2E35;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -12,7 +15,6 @@ height: 550px;
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    border-bottom: 2px solid black;
     position: relative;
    
     
@@ -39,6 +41,7 @@ height: 550px;
     color: #FFF;
 font-size: 18px;
 text-transform: uppercase;
+font-family: 'Poppins';
 }
 
 .signup {
@@ -53,6 +56,7 @@ line-height: 19.5px;
 letter-spacing: 0.2px;
 text-transform: capitalize;
 cursor: pointer;
+font-family: 'Poppins';
 
 }
 
@@ -68,6 +72,7 @@ line-height: 19.5px;
 letter-spacing: 0.2px;
 text-transform: capitalize;
 cursor: pointer;
+font-family: 'Poppins';
 }
 
 .popular_tools{
@@ -140,6 +145,8 @@ font-size: 40px;
 line-height: 32px; 
 letter-spacing: 0.2px;
 text-align: center;
+font-family: 'Poppins';
+font-weight: 600;
 }
 
 .popular h3{
@@ -149,6 +156,8 @@ line-height: 150%;
 margin-top: 24px;
 margin-left: 10px;
 text-align: center;
+font-family: 'Poppins';
+font-weight: 400;
 }
 
 .popular button{
@@ -165,6 +174,7 @@ text-transform: capitalize;
 margin-top: 35px;
 margin-left: 80px;
 cursor: pointer;
+font-family: 'Poppins';
 }
 
 main{
@@ -223,12 +233,14 @@ background: #F5F5F5;
     color: #1F2E35;
 font-size: 28px;
 line-height: 150%; 
+font-family: 'Poppins';
 }
 .free h3{
     color: #20C08B;
 font-size: 18px;
 line-height: 32px; 
 letter-spacing: 0.2px;
+font-family: 'Poppins';
 }
 
 .for_texts p{
@@ -237,6 +249,8 @@ letter-spacing: 0.2px;
     color: #475E69;
 font-size: 16px;
 line-height: 160%; 
+font-family: 'Poppins';
+font-weight: 400;
 }
 
 .design{
@@ -249,6 +263,7 @@ color: #0086D6;
 font-size: 14px;
 line-height: 32px; 
 letter-spacing: 0.2px;
+font-family: 'Poppins';
 }
 .develop{
     width: 116px;
@@ -260,6 +275,7 @@ letter-spacing: 0.2px;
 border-radius: 4px;
 background: #E1EBFB;
 border: white;
+font-family: 'Poppins';
 }
 
 .premium h3{
@@ -360,6 +376,8 @@ footer{
 font-size: 36px;
 line-height: 32px; 
 letter-spacing: 0.2px;
+font-family: 'Poppins';
+font-weight: 600;
 }
 
 .subscribe h3{
@@ -369,6 +387,8 @@ letter-spacing: 0.2px;
 font-size: 18px;
 line-height: 27px; 
 letter-spacing: 0.2px;
+font-family: 'Poppins';
+font-weight: 400;
 }
 
 input[type=email]{
@@ -378,6 +398,7 @@ width: 282px;
 height: 42px;
 padding: 11px 16px 11px 16px;
 border: white;
+font-family: 'Poppins';
 }
 
 input[type=submit]{
@@ -393,6 +414,7 @@ line-height: 18px;
 letter-spacing: 0.3px;
 border: white;
 margin-left: 13px;
+font-family: 'Poppins';
 }
 
 .footer2{
@@ -447,12 +469,15 @@ line-height: 35px;
     color: #FFF;
 font-size: 20px;
 line-height: 30px; 
+font-family: 'Poppins';
 }
 
 .all ul li a{
     color: #FFF;
 font-size: 16px;
 line-height: 35px; 
+font-family: 'Poppins';
+font-weight: 400;
 
 }
 
@@ -467,6 +492,7 @@ line-height: 35px;
     color: #FFF;
 font-size: 16px;
 line-height: 30px; 
+font-family: 'Poppins';
 }
 
 .second_nav{
