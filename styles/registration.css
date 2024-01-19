@@ -55,6 +55,8 @@ header {
     text-transform: capitalize;
     cursor: pointer;
     font-family: 'Poppins';
+    text-align: center;
+    padding-top: 10px;
   }
   
   .login {
