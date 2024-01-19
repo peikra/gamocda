@@ -589,3 +589,9 @@ footer {
       margin-top: 140%;
     }
 }
+
+@media (max-width:480px){
+  header{
+    height: 100%;
+  }
+}
